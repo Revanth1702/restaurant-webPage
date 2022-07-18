@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Prashamsa Restaurant Web Page</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" type='text/css'>
+    </head>
+
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="restaurant.html" class="pull-left visible-md visible-lg">
+                            <div id="logo" alt="Restaurant Logo"></div>
+                        </a>
+
+                        <div class="navbar-brand"> 
+                            <a href="restaurant.html"><h1>Prashamsa</h1></a> 
+                        </div>
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div id="collapsable-nav" class="collapse navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">
+                          <li>
+                              <a href="menu-cat.html">
+                                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
+                              </a>
+                          </li> 
+                          <li>
+                            <a href="about.html">
+                                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+                            </a>
+                          </li>  
+                          <li id="phone" class="hidden-xs">
+                            <a href="tel:9866011702">
+                                <span>Ph:9866011702</span>
+                            </a>
+                          </li> 
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="call-btn" class="visible-xs">
+            <a class="btn" href="tel:410-602-5008">
+            <span class="glyphicon glyphicon-earphone"></span>
+            410-602-5008
+            </a>
+        </div>
+        <div id="main-content" class="container">
+            <h2 id="menu-cat-title" class="text-center">Menu Categories</h2>
+            <div id="category-tiles" class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="firstcat.html"><div id="cat-tile" class="breakfast-tile"><span>Breakfast</span></div></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="secondcat.html"><div id="cat-tile" class="starters-tile"><span>Starters</span></div></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="thirdcat.html"><div id="cat-tile" class="mainCourse-tile"><span>Main Course</span></div></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="fourthcat.html"><div id="cat-tile" class="drinks-tile"><span>Drinks</span></div></a>
+                </div> 
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="specials.html"><div id="cat-tile" class ="specials-tile"><span>Specials</span></div></a>
+                </div>    
+            </div>
+
+        </div><!--end of main content-->
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <section id="address" class="col-sm-4">
+                        <span>Address</span><br>
+                        DLF CYBER CITY, Street No. 4, APHB Colony<br>
+                        Indira Nagar, Gachibowli, Hyderabad <br>
+                        Telangana 500032, India
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="timing" class="col-sm-4">
+                        <span>Timings</span><br>
+                        Sun-Sat : 12pm-12am<br>
+                        <span> Service Options</span><br>
+                        <ul>
+                            <li>Kerbside-Pickup</li>
+                            <li>No-contact Delivery</li>
+                            <li>Takeway</li>
+                            <li>Dine-in</li>
+                        </ul>
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="reviews" class="col-sm-4">
+                        <span>Reviews by our valuable costumers</span>
+                        <p>"Good service, affordable pricing (tiffins), tasty food and impressive ambience."</p>
+                        <p>"Special chicken biryani ,Egg fried rice and onion dosa  are my favourite dishes it tastes very good 
+                            with very reasonable price and ambience is peaceful .must visit this place."</p>
+                    </section>
+                </div><!--End of row-->
+                <div class="text-center">&copy; Copyright Prashamsa 2022</div>
+            </div> <!--End of container-->
+        </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
