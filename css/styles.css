@@ -222,8 +222,9 @@ body{
     background-position: center;
   }
   #menu-tile:hover, #specials-tile:hover, #map-tile:hover{
-      box-shadow: gray;
-      background-color: gray;
+      /* box-shadow: gray;
+      background-color: gray; */
+      box-shadow: 0 3px 10px 10px gray
   }
   #menu-tile span, #specials-tile span, #map-tile span{
       position: absolute;
